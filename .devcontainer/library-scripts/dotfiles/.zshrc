@@ -77,12 +77,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm pipenv zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git pipenv zsh-autosuggestions zsh-syntax-highlighting)
 # https://github.com/zsh-users/zsh-autosuggestions
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm
-NVM_LAZY=1
-NVM_AUTOLOAD=1
+# NVM_LAZY=1
+# NVM_AUTOLOAD=0
 
 source $ZSH/oh-my-zsh.sh
 
